@@ -46,8 +46,22 @@
             z-index: 2;
         }
 
+        .form-signin input[type="text"] {
+            margin-bottom: -1px;
+            border-bottom-right-radius: 0;
+            border-bottom-left-radius: 0;
+        }
+
+        .form-signin input[name="phone"] {
+            margin-bottom: -1px;
+            border-top-left-radius: 0;
+            border-top-right-radius: 0;
+        }
+
         .form-signin input[type="email"] {
             margin-bottom: -1px;
+            border-top-left-radius: 0;
+            border-top-right-radius: 0;
             border-bottom-right-radius: 0;
             border-bottom-left-radius: 0;
         }
@@ -67,7 +81,7 @@
 
     <main>
 
-        <?load_template('loginform')//Refers section between header and album posts.?>
+        <?load_template('signupform')//Refers section between header and album posts.?>
 
 
     </main>
