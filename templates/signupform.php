@@ -25,11 +25,7 @@
                 <label for="floatingPassword" style="color: black;">Password</label>
             </div>
 
-            <div class="checkbox mb-3">
-                <label>
-                    <input type="checkbox" value="remember-me"> Remember me
-                </label>
-            </div>
+
             <button class="w-100 btn btn-lg btn-primary hvr-shadow-radial type=" submit">Sign up</button>
             <p class="mt-5 mb-3 text-muted">&copy; Keerthivasan</p>
         </form>
